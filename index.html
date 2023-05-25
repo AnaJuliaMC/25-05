@@ -12,27 +12,41 @@
             vw tamanho relativo a largura da tela
             vh tamanho relativo a altura de tela 
             */
+        /*
+            CSS reset * 
+            */
 
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
         .mae{
             background-color: lightgray;
-            width: 85vw;
-            height: 50vh;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
         }
         .box1{
             background-color: red;
-            width: 40%;
+            width: 80%;
             height: 25%;
+            max-width: 50%;
         }
         .box2{
             background-color: green;
-            width: 50vw;
-            height: 50px;
+            width: 85vw;
+            height: 50px; 
+            min-width: 300px;
         }
         .box3{
             background-color: blue;
             width: 100px;
-            height: 50px;
-        }
+            height: 100px;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 5px;
+            }
     </style>
 </head>
 <body>
@@ -40,7 +54,7 @@
 
         <div class="box1"></div>
         <div class="box2"></div>
-        <div class="box3"></div>
+        <div class="box3"> Ana Julia</div>
     </div>
 </body>
 </html>
